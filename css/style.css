@@ -1,0 +1,237 @@
+
+body {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+
+h1, h2 {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+p {
+	max-width: 700px;
+	font-size: 30px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+p a {
+ color: #FFF;
+}
+
+nav {
+	background-color: #FFF;
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	text-align: center;
+	z-index: 5000;
+}
+
+nav a {
+	color: #888888;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	line-height: 80px;
+}
+
+nav a:hover {
+	font-weight: 400;
+}
+
+header, section, footer {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+header {
+	background-color: #32415b;
+}
+
+header h1 {
+	/*margin: 0px;*/
+}
+
+header img {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+header ul {
+	padding: 10px;
+}
+
+header li {
+	list-style-type: none;
+	font-size: 80px;
+}
+
+#short-blurb{
+background-color: #e6ad1d;
+
+}
+
+#fave-things{
+background-color: #32415b;
+}
+
+#pie {
+	width: 100%;
+	height: auto;
+}
+
+#pie-chart{
+	font-size: 20px;
+	width: 70%;
+	height: 100%;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+#recent-projects{
+background-color: #e6ad1d;
+}
+
+.project {
+	display: inline-block;
+	margin: 30px;
+}
+
+.project p {
+	max-width: 400px;
+}
+
+#contact {
+	background-color: #32415b;
+}
+
+form {
+	width: 415px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 50px;
+}
+
+input, textarea, #submit {
+	margin: 5px;
+}
+
+input, textarea {
+	width: 400px;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+input {
+	height: 30px;
+}
+
+textarea {
+	height: 200px;
+}
+
+input[type="submit"] {
+	width: 100px;
+}
+
+
+
+
+#social-icons a {
+	color: #FFF;
+	font-size: 100px;
+	text-decoration: none;
+	padding: 5px;
+}
+
+#social-icons a:hover {
+	color: #888888;
+}
+
+/*tablet*/
+@media screen and (max-width: 1023px){
+	
+}
+
+/*mobile*/
+@media screen and (max-width: 767px){
+
+	nav {
+		display: none;
+	}
+
+	h1 {
+		font-size: 60px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	p {
+		font-size: 24px;
+	}
+
+	header, section, footer {
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+
+	header img {
+		width: 150px;
+	}
+
+	header li {
+		font-size: 40px;
+	}
+
+	#pie-chart{
+		font-size: 25px;
+		width: 100%;
+	}
+
+	form {
+		width: 235px;
+	}
+
+	input, textarea {
+		width: 220px;
+	}
+
+	.project img {
+		width: 98%;
+	}
+
+	#social-icons a {
+		font-size: 95px;
+		padding: 7px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
